@@ -1,15 +1,15 @@
-
+## Commands used to create project
 mkdir <project_folder_name>
-
 cd <project_folder_name>
-
 code .
 
+## Conda create virtual environment
 conda create -p venv python=3.12 -y
 conda activate <path_of_env>
 
 pip install -r requirements.txt
 
+## Git commands
 git init
 git add .
 git commit -m <git message>
